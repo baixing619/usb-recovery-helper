@@ -4,3 +4,4 @@
 *.json text eol=lf
 *.exe binary
 *.dll binary
+resources/** -text
