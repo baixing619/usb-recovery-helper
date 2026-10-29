@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+开发环境/
+构建/
+验证/
+发布/
+third_party/sources/
+*.log
+*.img
+*.map
+*.partial
+*.zip
+*.part
+.env
+.env.*

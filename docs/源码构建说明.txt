@@ -1,0 +1,28 @@
+U盘恢复助手 0.1.0 源码与构建
+
+面向 Windows 10/11 x64。普通使用者只需解压运行软件包，不需要本文件中的开发步骤。
+
+构建环境：64位 Python 3.12（含 tkinter/Tcl/Tk），本次实际构建版本为3.12.14；PyInstaller及解析库版本在requirements-build.txt和requirements.txt中固定。
+
+在解压后的源码文件夹打开终端：
+  py -3.12 -m venv 开发环境
+  开发环境\Scripts\python.exe -m pip install -r requirements-build.txt
+  开发环境\Scripts\python.exe tools\build.py
+
+构建会创建新的构建/时间戳文件夹。构建/latest.json指向最新目录；把dist/U盘恢复助手整个文件夹交付，不能只复制EXE。
+源码中的相对路径从文件所在项目目录解析，不依赖用户名或固定盘符。外部GNU/Cygwin引擎已随resources提供；不安装到系统。
+
+运行测试：
+  开发环境\Scripts\python.exe -m unittest discover -s tests -v
+测试目录会把生成的合成数据放到验证/临时。部分测试需要设置PYTHONPATH为本项目src目录；可在PowerShell中先执行：
+  $env:PYTHONPATH = Join-Path (Get-Location) 'src'
+
+打包后验证：
+  开发环境\Scripts\python.exe tools\verify_portable.py
+这会把实际EXE整包复制到含中文和空格的新路径，以仅含Windows系统目录的PATH运行实际引擎停止/续接、文件恢复及源哈希检查。
+这是本机隔离验证，不能代替另一台电脑或真实故障U盘的验收。
+
+第三方资源：resources/engine-manifest.json记录版本、二进制哈希和对应源码包校验；third_party/sources包含7份原始源码归档。
+资源重建流程见third_party.md。包中的许可证保留在resources/licenses。
+
+产品边界和首次使用请阅读使用说明.txt、版本与范围.txt。源码包不包含真实恢复案例、用户文档、设备镜像、开发环境或本机测试日志。

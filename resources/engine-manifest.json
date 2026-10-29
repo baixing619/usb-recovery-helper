@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "versions": {
+    "ddrescue": "1.30-1",
+    "cygwin": "3.6.12-1",
+    "libgcc1": "14.4.0-1",
+    "libstdc++6": "14.4.0-1",
+    "libiconv2": "1.19-2",
+    "libintl8": "0.22.5-1",
+    "libzstd1": "1.5.7-1",
+    "zlib0": "1.3.2-1"
+  },
+  "files": [
+    {
+      "path": "cygwin/bin/cyggcc_s-seh-1.dll",
+      "sha256": "2aa1cb02f63b828c7fdbf0c23e7cc7832047184913c7d81db5d5102caef0a4eb",
+      "bytes": 142867
+    },
+    {
+      "path": "cygwin/bin/cygiconv-2.dll",
+      "sha256": "ef60ac449ec718c1724bad21c9e0c9904659ada9644f3ac7ea8ad5d5b8d8140e",
+      "bytes": 1104915
+    },
+    {
+      "path": "cygwin/bin/cygintl-8.dll",
+      "sha256": "6204e4ceed8b111d56b212a2fc0ec4cd9d570b67f5cae5d3773d74e4e2b2f7d1",
+      "bytes": 108051
+    },
+    {
+      "path": "cygwin/bin/cygpath.exe",
+      "sha256": "afcde6b04a86cc88eb38f68167858416f830b7d813cf5257ca4e7797d10197cf",
+      "bytes": 26643
+    },
+    {
+      "path": "cygwin/bin/cygstdc++-6.dll",
+      "sha256": "0596a54463dc1995c004dbdb1a75676a46729ea17047d34c1b02aa2355474adc",
+      "bytes": 2316819
+    },
+    {
+      "path": "cygwin/bin/cygwin-console-helper.exe",
+      "sha256": "8a35836307dc40a1d831572e3e70db8909bf1f57612922e9d6da4ba6613e1fc3",
+      "bytes": 42515
+    },
+    {
+      "path": "cygwin/bin/cygwin1.dll",
+      "sha256": "ed9d5379061e5de79c3375cc62246c2142ea1c97d94f4d16bfbea6fb1b7fc889",
+      "bytes": 3246645
+    },
+    {
+      "path": "cygwin/bin/cygz.dll",
+      "sha256": "5f10051462800d441c6aa3637db9e51549c4da288b288ff78b05a68a6dc19d7f",
+      "bytes": 90643
+    },
+    {
+      "path": "cygwin/bin/cygzstd-1.dll",
+      "sha256": "ef9a0db9f9637882e47a9d6571f13637f51a677bae3c3373490ed2baab6425f1",
+      "bytes": 680467
+    },
+    {
+      "path": "cygwin/bin/ddrescue.exe",
+      "sha256": "e960725af6f2d38ee0786de3acb2f118d675a3a9a0bd0c720eb173959d3d0a1e",
+      "bytes": 137747
+    },
+    {
+      "path": "cygwin/bin/kill.exe",
+      "sha256": "782b5a583fac8c281f51885ca1531653b4be631029abeec7c702b89dd9a06fc8",
+      "bytes": 14867
+    }
+  ],
+  "packageArchives": [
+    {
+      "name": "ddrescue",
+      "version": "1.30-1",
+      "relativePath": "x86_64/release/ddrescue/ddrescue-1.30-1-x86_64.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/ddrescue/ddrescue-1.30-1-x86_64.tar.xz",
+      "bytes": 127840,
+      "sha512": "386da1be56c6b84fc8ecac7ca3fdf1dffa78aa2db2f435ae9c549d55e3d21d92daeddbdb73038b06346b423cc39151d521dac90f19c3d83a37d4bb955fa6a078"
+    },
+    {
+      "name": "cygwin",
+      "version": "3.6.12-1",
+      "relativePath": "x86_64/release/cygwin/cygwin-3.6.12-1-x86_64.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/cygwin/cygwin-3.6.12-1-x86_64.tar.xz",
+      "bytes": 1621132,
+      "sha512": "c2ceaed3f6fb6c52c30c3fc06fe0ace4b5d9c452dc0a20fd31ffbeb46fd3f98cdea82136ff2feb6d889cb56731336808925f93b85bd9315f5fd544848a2bc582"
+    },
+    {
+      "name": "libgcc1",
+      "version": "14.4.0-1",
+      "relativePath": "x86_64/release/gcc/libgcc1/libgcc1-14.4.0-1-x86_64.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/gcc/libgcc1/libgcc1-14.4.0-1-x86_64.tar.zst",
+      "bytes": 59166,
+      "sha512": "5ac8a56e5eee285efcd6dbd05a473e795e181021d7194b8a98dfe2fa201a71f0abe2908e0b4c81490eb5ef472efaeac8e56a61a5f289eee4ad6e90e52a844ff8"
+    },
+    {
+      "name": "libstdc++6",
+      "version": "14.4.0-1",
+      "relativePath": "x86_64/release/gcc/libstdc++6/libstdc++6-14.4.0-1-x86_64.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/gcc/libstdc++6/libstdc++6-14.4.0-1-x86_64.tar.zst",
+      "bytes": 651767,
+      "sha512": "3d86409193c952618eee7e2dea32bdeb97f22ee800e13cc46f98b5095d4d0b1b31ac4336dc5819abb2d553ad1c2151619e9f6f337dfe921ba80fda1323f6f4e3"
+    },
+    {
+      "name": "libiconv2",
+      "version": "1.19-2",
+      "relativePath": "x86_64/release/libiconv/libiconv2/libiconv2-1.19-2-x86_64.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/libiconv/libiconv2/libiconv2-1.19-2-x86_64.tar.xz",
+      "bytes": 555664,
+      "sha512": "a1b23e24e0a495e7163923bcf40a4b933403e0826cfc0d9bde785bc92c909b8c4fb94b1e6b2c0242f4328a723855e72ff3baab9f557ef855b7fe7a7d901b0943"
+    },
+    {
+      "name": "libintl8",
+      "version": "0.22.5-1",
+      "relativePath": "x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/gettext/libintl8/libintl8-0.22.5-1.tar.xz",
+      "bytes": 43256,
+      "sha512": "370a19af888bc7c9ed95cf8ade0d36d5e7cdb634abdebcba260cad61fa9a4cc05b5e748e315c9709f66861e8756b227d6757d529846591189e19ee2b2d00002d"
+    },
+    {
+      "name": "libzstd1",
+      "version": "1.5.7-1",
+      "relativePath": "x86_64/release/zstd/libzstd1/libzstd1-1.5.7-1.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/zstd/libzstd1/libzstd1-1.5.7-1.tar.zst",
+      "bytes": 253786,
+      "sha512": "f89cdaa004487ec8c4796b8f56887c81f6f497873c1495b9cb585ffe6c8d6e6b8ad4b52617d5238075f965f1fe001da287d9a00d121590274b2d87672b415a0f"
+    },
+    {
+      "name": "zlib0",
+      "version": "1.3.2-1",
+      "relativePath": "x86_64/release/zlib/zlib0/zlib0-1.3.2-1-x86_64.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/zlib/zlib0/zlib0-1.3.2-1-x86_64.tar.zst",
+      "bytes": 46254,
+      "sha512": "d79ba6098cadf6bf2f32f35d9cd54729293c64b3c9daabb9d080f52861a19db71544d5710fdbd61ff45e7c2ae4eecb3f2e3b8a1e3bc05695b8cfe01c7639c53a"
+    }
+  ],
+  "sourceURLs": [
+    {
+      "relativePath": "src/release/cygwin/cygwin-3.6.12-1-src.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/src/release/cygwin/cygwin-3.6.12-1-src.tar.xz",
+      "bytes": 9318356,
+      "sha512": "9d70312a931f06d1158e7e913a23fb4aec4bb5fce6c5b55caf274a6d63905248625beaf1391f2d4518fbf5099523fdab2aa26834651856f4693fbf8862027889",
+      "packages": [
+        "cygwin"
+      ],
+      "filePath": "third_party/sources/cygwin-3.6.12-1-src.tar.xz"
+    },
+    {
+      "relativePath": "src/release/libiconv/libiconv-1.19-2-src.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/src/release/libiconv/libiconv-1.19-2-src.tar.xz",
+      "bytes": 5086384,
+      "sha512": "62288f9458b6c5a9eec369900971e9c552747b03df0198fbe1749ca93f76bf3d3079109f115ec0f53b2dc2f72c0c8624e21fa439fc41b9a0be339465fce1c534",
+      "packages": [
+        "libiconv2"
+      ],
+      "filePath": "third_party/sources/libiconv-1.19-2-src.tar.xz"
+    },
+    {
+      "relativePath": "x86_64/release/ddrescue/ddrescue-1.30-1-src.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/ddrescue/ddrescue-1.30-1-src.tar.xz",
+      "bytes": 104076,
+      "sha512": "f599e02ef7de20e59745d7b7f8e73fabf7cd9a1b71745382fbfa1e550db0dab789f3078746d0f9b92e42be78f4cd76ed346835815f05831e12effad64c1ab24e",
+      "packages": [
+        "ddrescue"
+      ],
+      "filePath": "third_party/sources/ddrescue-1.30-1-src.tar.xz"
+    },
+    {
+      "relativePath": "x86_64/release/gcc/gcc-14.4.0-1-src.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/gcc/gcc-14.4.0-1-src.tar.zst",
+      "bytes": 91626118,
+      "sha512": "a4fa4be6b610a7d868271027c17c46c5f64e1b125e0bec1d51d34cc47f53a670c95841ad4fdcb5aa236244e8b09e5dc194c64e788fc5011459ba2eb29a815299",
+      "packages": [
+        "libgcc1",
+        "libstdc++6"
+      ],
+      "filePath": "third_party/sources/gcc-14.4.0-1-src.tar.zst"
+    },
+    {
+      "relativePath": "x86_64/release/gettext/gettext-0.22.5-1-src.tar.xz",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/gettext/gettext-0.22.5-1-src.tar.xz",
+      "bytes": 8483620,
+      "sha512": "101bf0971ec63c5a99fc1f78be0047417ce4bbbe6bee88596a27973cad07cbb7a89e466e3e996332ef9d99b3d38b3bede42e53ca544c5e3540f723ccb8621e04",
+      "packages": [
+        "libintl8"
+      ],
+      "filePath": "third_party/sources/gettext-0.22.5-1-src.tar.xz"
+    },
+    {
+      "relativePath": "x86_64/release/zlib/zlib-1.3.2-1-src.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/zlib/zlib-1.3.2-1-src.tar.zst",
+      "bytes": 1321796,
+      "sha512": "10aa89718be99490ba9e76c19cf8e7e5cbb2a84c7510ea928c87c60279cb5ef0beb58def1049f427139e2b2024e4434ca32bdfbf7cd9a73ea7672684b2b3bcb9",
+      "packages": [
+        "zlib0"
+      ],
+      "filePath": "third_party/sources/zlib-1.3.2-1-src.tar.zst"
+    },
+    {
+      "relativePath": "x86_64/release/zstd/zstd-1.5.7-1-src.tar.zst",
+      "url": "https://mirrors.kernel.org/sourceware/cygwin/x86_64/release/zstd/zstd-1.5.7-1-src.tar.zst",
+      "bytes": 1868357,
+      "sha512": "70e7e40283b8f7783b5545b249e4afc815fe1ac625786ad9e6e6ef50a733d0cf8b810ccea280786dd30f7b82af837f7fc09efe0f3cd0ca146d9c231648f3cc64",
+      "packages": [
+        "libzstd1"
+      ],
+      "filePath": "third_party/sources/zstd-1.5.7-1-src.tar.zst"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "licenses/CYGWIN_LICENSE.txt",
+      "source": "usr/share/doc/Cygwin/CYGWIN_LICENSE",
+      "sha256": "794433752103cf4bbb4a84a1bdb8fbc150abb1762704bb35fecc9f7f820be984",
+      "bytes": 1458
+    },
+    {
+      "path": "licenses/Cygwin-COPYING.LIB.txt",
+      "source": "src/release/cygwin/cygwin-3.6.12-1-src.tar.xz!newlib-cygwin/winsup/COPYING.LIB",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "bytes": 7651
+    },
+    {
+      "path": "licenses/Cygwin-COPYING.txt",
+      "source": "usr/share/doc/Cygwin/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "bytes": 35147
+    },
+    {
+      "path": "licenses/ddrescue-COPYING.txt",
+      "source": "usr/share/doc/ddrescue/COPYING.gz (decompressed)",
+      "sha256": "022e9c2e9cc1aac3622313df6f971fbb39c1d1b0cb45324c16b8a1fe231c5ea6",
+      "bytes": 17982
+    }
+  ],
+  "cliChecks": {
+    "ddrescue.exe": "GNU ddrescue 1.30",
+    "kill.exe": "Usage: kill [-fW] [-signal] [-s signal] pid1 [pid2 ...]"
+  }
+}
